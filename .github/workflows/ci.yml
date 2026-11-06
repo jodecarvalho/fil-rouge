@@ -1,0 +1,11 @@
+name: CI Fil Rouge
+on:
+    push:
+
+jobs:
+    first-job:
+        runs-on: unbuntu-latest
+
+        steps:
+            - name: Dire bonjour
+              run: echo "Bonjour, je suis le premier job du fil rouge !"
