@@ -8,5 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Récupérer le projet
+        uses: actions/checkout@v4
+
       - name: Dire bonjour
         run: echo "Bonjour depuis mon pipeline CI GitHub Actions !"
