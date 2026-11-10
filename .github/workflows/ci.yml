@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Récupérer le projet
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Dire bonjour
         run: echo "Bonjour depuis mon pipeline CI GitHub Actions !"
