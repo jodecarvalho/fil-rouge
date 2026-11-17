@@ -25,3 +25,7 @@ jobs:
 
       - name: Vérifier la version de Maven
         run: mvn -version
+
+      - name: Lancer les tests
+        working-directory: ./backend
+        run: mvn test
