@@ -13,3 +13,12 @@ jobs:
 
       - name: Dire bonjour
         run: echo "Bonjour depuis mon pipeline CI GitHub Actions !"
+
+      - name: Configurer Java 17
+        uses: actions/setup-java@v5
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Vérifier la version de Java
+        run: java -version
