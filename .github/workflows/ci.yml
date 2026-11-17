@@ -22,3 +22,6 @@ jobs:
 
       - name: Vérifier la version de Java
         run: java -version
+
+      - name: Vérifier la version de Maven
+        run: mvn -version
